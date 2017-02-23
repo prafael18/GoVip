@@ -5,7 +5,7 @@
     <string name="last_name">Last Name</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="dd">DD</string>
+    <string name="ddd">DDD</string>
     <string name="phone">Phone</string>
 
     <string name="already_have_account">Already have an account ?</string>
