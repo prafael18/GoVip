@@ -12,6 +12,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/image_view_logo_activity_login"
         android:src="@drawable/goviphdlogo"
         android:layout_marginBottom="40dp"
         android:layout_gravity="center" />
@@ -19,7 +20,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="140dp"
+        android:layout_marginBottom="160dp"
         android:src="@drawable/horizontal_line"
         android:layout_gravity="center|bottom"/>
 
@@ -27,14 +28,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="70dp"
         android:orientation="horizontal">
 
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
             android:id="@+id/image_button_sign_up_activity_login"
             android:background="@color/colorPrimary"
             android:src="@drawable/membros"
@@ -52,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
-            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
             android:id="@+id/image_button_sign_in_activity_login"
             android:src="@drawable/cadastrar"
             android:layout_gravity="center"/>
@@ -63,7 +64,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:layout_marginBottom="10dp"
+        android:id="@+id/image_button_explore_activity_login"
+        android:layout_marginBottom="30dp"
         android:src="@drawable/explorar"
         android:layout_gravity="bottom|center"/>
 
