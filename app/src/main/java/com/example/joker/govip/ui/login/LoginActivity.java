@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.example.joker.govip.R;
+import com.example.joker.govip.ui.list_restaurants.MainActivity;
 import com.example.joker.govip.ui.login.signin.SignInActivity;
+import com.example.joker.govip.ui.login.signup.SignUpActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -39,7 +41,8 @@ public class LoginActivity extends AppCompatActivity {
                 return new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-
+                        Intent intent = new Intent(LoginActivity.this, SignUpActivity.class);
+                        startActivity(intent);
                     }
                 };
             case R.id.image_button_sign_in_activity_login:
@@ -54,7 +57,8 @@ public class LoginActivity extends AppCompatActivity {
                 return new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-
+                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                        startActivity(intent);
                     }
                 };
             default:

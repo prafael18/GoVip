@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="30dp"
-            android:id="@+id/image_button_sign_up_activity_login"
+            android:id="@+id/image_button_sign_in_activity_login"
             android:background="@color/colorPrimary"
             android:src="@drawable/membros"
             android:layout_gravity="center"/>
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
             android:layout_marginLeft="30dp"
-            android:id="@+id/image_button_sign_in_activity_login"
+            android:id="@+id/image_button_sign_up_activity_login"
             android:src="@drawable/cadastrar"
             android:layout_gravity="center"/>
 
