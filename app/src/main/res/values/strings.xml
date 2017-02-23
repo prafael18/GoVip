@@ -8,7 +8,12 @@
     <string name="ddd">DDD</string>
     <string name="phone">Phone</string>
 
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+
     <string name="already_have_account">Already have an account ?</string>
+    <string name="dont_have_account">Do not have an account ?</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
     <string name="login">Login</string>
     <string name="create_account">Create Account</string>
 

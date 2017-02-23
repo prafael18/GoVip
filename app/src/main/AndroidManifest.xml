@@ -18,8 +18,9 @@
         <activity android:name=".ui.login.LoginActivity" />
         <activity android:name=".ui.login.signup.SignUpActivity"
             android:parentActivityName=".ui.login.LoginActivity"/>
+        <activity android:name=".ui.login.signin.SignInActivity"
+            android:parentActivityName=".ui.login.LoginActivity"/>
         <activity android:name=".ui.list_restaurants.MainActivity" />
-        <activity android:name=".ui.login.signin.SignInActivity"></activity>
     </application>
 
 </manifest>
