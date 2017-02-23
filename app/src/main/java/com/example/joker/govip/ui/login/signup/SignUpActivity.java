@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -18,7 +19,7 @@ import com.example.joker.govip.ui.login.signin.SignInActivity;
 
 public class SignUpActivity extends AppCompatActivity {
 
-    LinearLayout layout;
+    FrameLayout layout;
     Toolbar toolbar;
     EditText firstNameEditText, lastNameEditText, emailEditText, passwordEditText, dddEditText, phoneEditText;
     Button createAccountButton;
@@ -33,7 +34,7 @@ public class SignUpActivity extends AppCompatActivity {
 
     private void initializeScreen() {
 
-        layout = (LinearLayout) findViewById(R.id.layout_activity_sign_in);
+        layout = (FrameLayout) findViewById(R.id.layout_activity_sign_in);
         layout.setOnClickListener(onClicks(layout.getId()));
 
         toolbar = (Toolbar) findViewById(R.id.toolbar_activity_sign_up);
